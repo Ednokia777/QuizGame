@@ -1,4 +1,4 @@
-package com.stnsystem.quizgame.data.entities
+package com.stnsystem.quizgame.domain.entities
 
 data class Question (
     val sum: Int,

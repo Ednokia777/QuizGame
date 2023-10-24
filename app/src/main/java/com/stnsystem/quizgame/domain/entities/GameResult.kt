@@ -1,4 +1,4 @@
-package com.stnsystem.quizgame.data.entities
+package com.stnsystem.quizgame.domain.entities
 
 class GameResult (
     val winner: Boolean,

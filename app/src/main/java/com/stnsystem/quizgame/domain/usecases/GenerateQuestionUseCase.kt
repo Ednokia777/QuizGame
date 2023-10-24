@@ -1,7 +1,7 @@
-package com.stnsystem.quizgame.data.usecases
+package com.stnsystem.quizgame.domain.usecases
 
-import com.stnsystem.quizgame.data.entities.Question
-import com.stnsystem.quizgame.data.repository.GameRepository
+import com.stnsystem.quizgame.domain.entities.Question
+import com.stnsystem.quizgame.domain.repository.GameRepository
 
 class GenerateQuestionUseCase (
     private val repository: GameRepository
