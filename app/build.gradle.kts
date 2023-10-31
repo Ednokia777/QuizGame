@@ -1,11 +1,12 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-parcelize")
 }
 
 android {
     namespace = "com.stnsystem.quizgame"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.stnsystem.quizgame"
@@ -32,6 +33,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
